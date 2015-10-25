@@ -71,7 +71,13 @@ p {
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	.left_align_md {
+		text-align: left;
+	}
 
+	p {
+		font-size: 1.3em;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -95,7 +101,7 @@ p {
 	background-image: url(../images/fantoo-logo.png);
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 200px;
+	width: 150px;
 	margin-top: 10px;
 	margin-left: 15px;
 }
@@ -113,12 +119,33 @@ p {
 	margin-bottom: 5px;
 }
 
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+	.navbar-nav a {
+		margin-top: 0;
+		margin-bottom: 0;
+		border-left: 1px solid #b7b7b7;
+		font-size: 1.5em;
+	}
+
+	.social_buttons a {
+		border: none;
+	}
+
+	.navbar-nav li a{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
 /** FOOTER
 --------------------------------------------------------------------------------------**/
 
 footer {
 	background-color: #333;
 	color: #fff;
+	padding-top: 15px;
 }
 
 footer ul {
@@ -154,6 +181,20 @@ footer p {
 	padding-top: 50px;
 }
 
+.text_padding {
+	padding-bottom: 50px;
+}
+
+@media only screen and (min-width : 992px) {
+	.padding_top {
+		padding-top: 125px;
+	}
+	.padding{
+		padding-top: 125px;
+		padding-bottom: 125px;
+	}
+}
+
 /** HERO SECTION
 -----------------**/
 
@@ -162,6 +203,7 @@ footer p {
 	border-radius: 5px;
 	color: #fff;
 	padding: 15px 30px;
+	margin-top: 50px;
 }
 
 /** index.html hero section **/
@@ -188,6 +230,12 @@ footer p {
 	color: rgb(51, 51, 51);
 }
 
+.down_arrow {
+	margin-top: 25px;
+	color: #fff;
+	font-size: 2em;
+}
+
 /** GRADIENT SECTION
 -----------------**/
 
@@ -207,7 +255,6 @@ footer p {
 	background-color: #fff;
 	border-top: 1px #fff;
 }
-
 
 /** dell gradient section **/
 
@@ -240,6 +287,22 @@ footer p {
 	margin-bottom: 15px;
 }
 
+.dell_body_padding {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.dell_text_padding {
+	padding-top: 10px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.dell_border {
+		border-right: 1px solid #fff;
+	}
+}
+
 /** LIGHT GREY SECTION
 -----------------**/
 
@@ -252,6 +315,12 @@ footer p {
 
 .dark_grey {
 	background-color: #dedede;
+}
+
+@media only screen and (min-width : 992px) {
+	#dashboard_view img{
+		padding-top: 40px;
+	}
 }
 
 /** BACKGROUND IMAGE SECTION
