@@ -10,6 +10,7 @@ body {
 	font-family: 'Source Sans Pro', 'Source Sans', sans-serif;
 	text-align: center;
 	font-weight: 100;
+	color: #222;
 }
 
 img {
@@ -36,18 +37,24 @@ p {
 	font-size: 1.2em;
 }
 
+ul li {
+	list-style-position: inside;
+}
+
+
 .btn-default {
 	background-color: #5abcd9;
 	border: none;
 	font-size: 1.5em;
 	color: #fff;
-	margin-bottom: 10px;
+	margin: 15px auto;
 	-webkit-transition:  background-color .3s, color .3s;
 	transition: background-color .3s, color .3s;
 }
 
 .btn-default:hover, .btn-default:focus {
-	background-color: #7f96dc;
+	background-color: #505050;
+	color: #fff;
 }
 
 /* Custom, iPhone Retina */ 
@@ -93,6 +100,7 @@ p {
 .navbar {
 	background-color: #fff;
 	margin-bottom: 0px;
+	border: none;
 }
 
 /** navbar brand **/
@@ -101,7 +109,7 @@ p {
 	background-image: url(../images/fantoo-logo.png);
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 150px;
+	width: 200px;
 	margin-top: 10px;
 	margin-left: 15px;
 }
@@ -112,6 +120,10 @@ p {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 2em;
+}
+
+.navbar-nav>li:hover {
+	background-color: #f7f7f7;
 }
 
 .navbar-toggle p{
@@ -125,8 +137,12 @@ p {
 	.navbar-nav a {
 		margin-top: 0;
 		margin-bottom: 0;
-		border-left: 1px solid #b7b7b7;
+		border-left: 1px solid #ECECEC;
 		font-size: 1.5em;
+	}
+
+	.navbar-nav .last_nav_link {
+		border-right: 1px solid #ECECEC;;
 	}
 
 	.social_buttons a {
@@ -195,6 +211,40 @@ footer p {
 	}
 }
 
+.small_images {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.small_body_padding {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.small_text_padding {
+	padding-top: 10px;
+}
+
+.bullet_points {
+	padding: 10px 15px 30px;
+}
+
+.bullet_points li {
+	padding-top: 1em;
+	font-size: 1.3em;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.bullet_points {
+	text-align: left;
+	}
+
+	.bullet_points li {
+		list-style-position: outside;
+	}
+}
+
 /** HERO SECTION
 -----------------**/
 
@@ -234,6 +284,18 @@ footer p {
 	margin-top: 25px;
 	color: #fff;
 	font-size: 2em;
+}
+
+/** partnersresellers.html hero section **/
+
+#partners_hero {
+	background-image: url(../images/partners.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#partners_hero h2 {
+	color: #fff;
 }
 
 /** GRADIENT SECTION
@@ -283,18 +345,7 @@ footer p {
 	left: -8px;
 }
 
-.dell_images {
-	margin-bottom: 15px;
-}
 
-.dell_body_padding {
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
-
-.dell_text_padding {
-	padding-top: 10px;
-}
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -303,11 +354,34 @@ footer p {
 	}
 }
 
+/** WHITE SECTION 
+-----------------**/
+
+.white {
+	background-color: #fff;
+}
+
 /** LIGHT GREY SECTION
 -----------------**/
 
 .light_grey {
 	background-color: #f3f3f3;
+}
+
+/** dell challenges section **/
+
+.downloads_panel {
+	margin: 30px auto;
+	padding: 10px 15px 30px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px 3px #DBDBDB;
+	text-align: center;
+}
+
+.downloads_panel a {
+	color: #222;
+	text-decoration: underline;
+	font-size: 1.2em;
 }
 
 /** DARK GREY SECTION
