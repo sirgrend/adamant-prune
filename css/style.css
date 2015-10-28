@@ -253,7 +253,11 @@ footer p {
 	border-radius: 5px;
 	color: #fff;
 	padding: 15px 30px;
-	margin-top: 50px;
+	margin: 50px auto;
+}
+
+#partners_hero h2, #press_hero h2 {
+	color: #fff;
 }
 
 /** index.html hero section **/
@@ -286,7 +290,7 @@ footer p {
 	font-size: 2em;
 }
 
-/** partnersresellers.html hero section **/
+/** partners_resellers.html hero section **/
 
 #partners_hero {
 	background-image: url(../images/partners.jpg);
@@ -294,10 +298,19 @@ footer p {
 	background-position: center;
 }
 
-#partners_hero h2 {
-	color: #fff;
+
+
+/** press.html hero section **/
+
+#press_hero {
+	background-image: url(../images/press.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
+#press_hero .dark_background:hover {
+	background-color: rgba(22, 22, 22, 0.5);
+}
 /** GRADIENT SECTION
 -----------------**/
 
@@ -357,9 +370,6 @@ footer p {
 /** WHITE SECTION 
 -----------------**/
 
-.white {
-	background-color: #fff;
-}
 
 /** LIGHT GREY SECTION
 -----------------**/
