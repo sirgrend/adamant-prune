@@ -386,6 +386,91 @@ footer p {
 	color: #fff;
 }
 
+/** about photos section **/
+
+#people {
+	height: 150px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding: 0;
+
+
+}
+
+#people .square_photo {
+	list-style: none;
+	display: block;
+	white-space: nowrap;
+	margin: 0;
+	padding: 0;
+}
+
+#people .square_photo div {
+	width: 150px;
+	height: 150px;
+	padding: 0;
+	display: inline-block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#people img {
+	width: 300px;
+}
+
+#people .square_photo div#arun {
+	background-image: url(../images/about/arun.jpg);
+}
+
+#people .square_photo div#balazs {
+	background-image: url(../images/about/balazs.jpg);
+}
+
+#people .square_photo div#daniel {
+	background-image: url(../images/about/daniel.jpg);
+}
+
+#people .square_photo div#david {
+	background-image: url(../images/about/david.jpg);
+}
+
+#people .square_photo div#ed {
+	background-image: url(../images/about/ed.jpg);
+}
+
+#people .square_photo div#jordan {
+	background-image: url(../images/about/jordan.jpg);
+}
+
+#people .square_photo div#ken {
+	background-image: url(../images/about/ken.jpg);
+}
+
+#people .square_photo div#marcelo {
+	background-image: url(../images/about/marcelo.jpg);
+}
+
+#people .square_photo div#orlando {
+	background-image: url(../images/about/orlando.jpg);
+}
+
+#people .square_photo div#santosh {
+	background-image: url(../images/about/santosh.jpg);
+}
+
+#people .square_photo div#seena {
+	background-image: url(../images/about/seena.jpg);
+}
+
+#people .square_photo div#terrie {
+	background-image: url(../images/about/terrie.jpg);
+}
+
+#people .square_photo div#tom {
+	background-image: url(../images/about/tom.jpg);
+}
+
 /** GRADIENT SECTION
 -----------------**/
 
