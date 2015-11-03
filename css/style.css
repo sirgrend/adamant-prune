@@ -57,6 +57,22 @@ ul li {
 	color: #fff;
 }
 
+.btn-success {
+	background-color: #5abcd9;
+	text-decoration: none;
+	border: none;
+	color: #fff;
+	margin: 15px auto;
+	padding: 15px 30px;
+	-webkit-transition:  background-color .3s, color .3s;
+	transition: background-color .3s, color .3s;
+}
+
+.btn-success:hover, .btn-success:focus {
+	background-color: #505050;
+	color: #fff;
+}
+
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
 
@@ -225,6 +241,20 @@ footer p {
 	padding-top: 10px;
 }
 
+.box_shadow_panel {
+	margin: 30px auto;
+	padding: 10px 15px 30px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px 3px rgba(83, 83, 83, 0.2);
+	text-align: center;
+}
+
+.box_shadow_panel a {
+	color: #222;
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+
 .bullet_points {
 	padding: 10px 15px 30px;
 }
@@ -253,7 +283,7 @@ footer p {
 	border-radius: 5px;
 	color: #fff;
 	padding: 15px 30px;
-	margin: 50px auto;
+	margin-top: 50px;
 }
 
 #partners_hero h2, #press_hero h2 {
@@ -300,17 +330,62 @@ footer p {
 
 
 
-/** press.html hero section **/
+/** press.html section **/
 
-#press_hero {
+#press {
 	background-image: url(../images/press.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
-#press_hero .dark_background:hover {
+#press .dark_background {
+	margin: 50px auto;
+}
+
+#press .dark_background:hover {
 	background-color: rgba(22, 22, 22, 0.5);
 }
+
+
+/** pricing.html section **/
+
+#pricing {
+	background: -webkit-linear-gradient(rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 1) 80%), -webkit-linear-gradient(110deg, #5abcd9 30%, #7f96dc 50%, #5abcd9); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 1) 80%), -o-linear-gradient(110deg, #5abcd9 30%, #7f96dc 50%, #5abcd9); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 1) 80%), -moz-linear-gradient(110deg, #5abcd9 30%, #7f96dc 50%, #5abcd9); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 1) 80%), linear-gradient(110deg, #5abcd9 30%, #7f96dc 50%, #5abcd9); /* Standard syntax */
+
+}
+
+#pricing .box_shadow_panel {
+	background-color: #fff;
+}
+
+#pricing h1 {
+	font-size: 3.7em;
+	color: #7f96dc;
+	font-weight: 500;
+}
+
+#pricing a {
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.pricing_table {
+
+}
+
+
+/** about.html section **/
+
+#about_hero {
+	background-image: url(../images/about-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
 /** GRADIENT SECTION
 -----------------**/
 
@@ -380,19 +455,6 @@ footer p {
 
 /** dell challenges section **/
 
-.downloads_panel {
-	margin: 30px auto;
-	padding: 10px 15px 30px;
-	border-radius: 5px;
-	box-shadow: 2px 2px 3px 3px #DBDBDB;
-	text-align: center;
-}
-
-.downloads_panel a {
-	color: #222;
-	text-decoration: underline;
-	font-size: 1.2em;
-}
 
 /** DARK GREY SECTION
 -----------------**/
