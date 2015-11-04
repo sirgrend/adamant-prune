@@ -386,7 +386,133 @@ footer p {
 	color: #fff;
 }
 
-/** about photos section **/
+/** support.html hero section **/
+
+#support_hero {
+	background-image: url(../images/datacenter.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+/** contact.html hero section **/
+
+#contact_hero {
+	background-image: url(../images/press.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+/** privacy.html hero section **/
+
+#privacy_hero {
+	background-color: #606060;
+	color: #fff;
+}
+
+/** terms_of_service.html hero section **/
+
+#tos_hero {
+	background-color: #606060;
+	color: #fff;
+}
+
+/** GRADIENT SECTION
+-----------------**/
+
+.gradient_background {
+  background: -webkit-linear-gradient(135deg, #5abcd9, #7f96dc); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(135deg, #5abcd9, #7f96dc); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(135deg, #5abcd9, #7f96dc); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(135deg, #5abcd9, #7f96dc); /* Standard syntax */
+  color: #fff;
+}
+
+.gradient_background h3 {
+	color: #fff;
+}
+
+.gradient_background hr {
+	background-color: #fff;
+	border-top: 1px #fff;
+}
+
+/** dell gradient section **/
+
+.round_portrait {
+	border-radius: 50%;
+}
+
+.speech_bubble {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	vertical-align: central;
+}
+
+.speech_bubble h2 {
+	padding: 5px;
+	margin: 0;
+}
+
+.speech_bubble_arrow_left {
+	border-style: solid;
+	position: absolute;
+	border-color: rgba(255, 255, 255, 0.3) transparent transparent;
+	border-width: 8px 0px 8px 8px;
+	left: -8px;
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.dell_border {
+		border-right: 1px solid #fff;
+	}
+}
+
+
+/** LIGHT GREY SECTION
+-----------------**/
+
+.light_grey {
+	background-color: #f3f3f3;
+}
+
+/** dell challenges section **/
+
+
+/** DARK GREY SECTION
+-----------------**/
+
+.dark_grey {
+	background-color: #dedede;
+}
+
+@media only screen and (min-width : 992px) {
+	#dashboard_view img{
+		padding-top: 40px;
+	}
+}
+
+/** BACKGROUND IMAGE SECTION
+-----------------**/
+
+/** one touch **/
+
+.one_touch {
+	background-image: url(../images/reply.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+/** ABOUT BODY
+-----------------**/
 
 #people {
 	height: 150px;
@@ -469,102 +595,6 @@ footer p {
 
 #people .square_photo div#tom {
 	background-image: url(../images/about/tom.jpg);
-}
-
-/** GRADIENT SECTION
------------------**/
-
-.gradient_background {
-  background: -webkit-linear-gradient(135deg, #5abcd9, #7f96dc); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(135deg, #5abcd9, #7f96dc); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(135deg, #5abcd9, #7f96dc); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(135deg, #5abcd9, #7f96dc); /* Standard syntax */
-  color: #fff;
-}
-
-.gradient_background h3 {
-	color: #fff;
-}
-
-.gradient_background hr {
-	background-color: #fff;
-	border-top: 1px #fff;
-}
-
-/** dell gradient section **/
-
-.round_portrait {
-	border-radius: 50%;
-}
-
-.speech_bubble {
-	background-color: rgba(255, 255, 255, 0.3);
-	border-radius: 5px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	vertical-align: central;
-}
-
-.speech_bubble h2 {
-	padding: 5px;
-	margin: 0;
-}
-
-.speech_bubble_arrow_left {
-	border-style: solid;
-	position: absolute;
-	border-color: rgba(255, 255, 255, 0.3) transparent transparent;
-	border-width: 8px 0px 8px 8px;
-	left: -8px;
-}
-
-
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-	.dell_border {
-		border-right: 1px solid #fff;
-	}
-}
-
-/** WHITE SECTION 
------------------**/
-
-
-/** LIGHT GREY SECTION
------------------**/
-
-.light_grey {
-	background-color: #f3f3f3;
-}
-
-/** dell challenges section **/
-
-
-/** DARK GREY SECTION
------------------**/
-
-.dark_grey {
-	background-color: #dedede;
-}
-
-@media only screen and (min-width : 992px) {
-	#dashboard_view img{
-		padding-top: 40px;
-	}
-}
-
-/** BACKGROUND IMAGE SECTION
------------------**/
-
-/** one touch **/
-
-.one_touch {
-	background-image: url(../images/reply.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #fff;
 }
 
 
