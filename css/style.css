@@ -1,0 +1,752 @@
+/** GENERAL STYLES
+--------------------------------------------------------------------------------------**/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font-family: 'Source Sans Pro', 'Source Sans', sans-serif;
+	text-align: center;
+	font-weight: 100;
+	color: #222;
+}
+
+img {
+	width: 100%;
+}
+
+h1 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 4em;
+	text-shadow: rgba(255, 255, 255, 0.7) 0px 0px 20px;
+}
+
+h3 {
+	color: rgb(51, 51, 51);
+}
+
+h4 {
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.3em;
+}
+
+p {
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+ul li {
+	list-style-position: inside;
+}
+
+.btn-default {
+	background-color: #5abcd9;
+	border-radius: 5px;
+	border: none;
+	font-size: 1.5em;
+	color: #fff;
+	margin: 15px auto;
+	-webkit-transition:  background-color .3s, color .3s;
+	transition: background-color .3s, color .3s;
+}
+
+.btn-default:hover, .btn-default:focus {
+	background-color: #505050;
+	color: #fff;
+}
+
+.btn-success {
+	background-color: #5abcd9;
+	border-radius: 5px;
+	text-decoration: none;
+	border: none;
+	color: #fff;
+	margin: 15px auto;
+	padding: 15px 30px;
+	-webkit-transition:  background-color .3s, color .3s;
+	transition: background-color .3s, color .3s;
+}
+
+.btn-success:hover, .btn-success:focus {
+	background-color: #505050;
+	color: #fff;
+}
+
+.paragraph_content {
+	text-align: left;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+	h1 {
+		font-size: 6em;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.left_align_md {
+		text-align: left;
+	}
+
+	p {
+		font-size: 1.3em;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/** NAVIGATION 
+--------------------------------------------------------------------------------------**/
+
+/** navbar general **/
+
+.navbar {
+	background-color: #fff;
+	margin-bottom: 0px;
+	border: none;
+}
+
+/** navbar brand **/
+
+.logo {
+	background-image: url(../images/fantoo-logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+/** navbar navigation **/
+
+.navbar-nav a {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 2em;
+}
+
+.navbar-nav>li:hover {
+	background-color: #f7f7f7;
+}
+
+.navbar-toggle p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+	.navbar-nav a {
+		margin-top: 0;
+		margin-bottom: 0;
+		border-left: 1px solid #ECECEC;
+		font-size: 1.5em;
+	}
+
+	.navbar-nav .last_nav_link {
+		border-right: 1px solid #ECECEC;;
+	}
+
+	.social_buttons a {
+		border: none;
+	}
+
+	.social_buttons li {
+		-webkit-transition:  all ease-in-out .1s;
+		transition: all ease-in-out .1s;
+		color: #1c1c1c;
+	}
+
+	.social_buttons li:hover {
+		background-color: rgba(0, 0, 0, 0.0);
+		-webkit-transform: scale(1.1);
+	  	-moz-transform: scale(1.1);
+	  	-ms-transform: scale(1.1);
+	  	-o-transform: scale(1.1);
+	  	transform: scale(1.1);
+	}
+
+	.navbar-nav li a{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+/** FOOTER
+--------------------------------------------------------------------------------------**/
+
+footer {
+	background-color: #333;
+	color: #f7f7f7;
+	padding-top: 15px;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer a {
+	color: #f9f9f9;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: #7f96dc;
+}
+
+footer p {
+	font-size: .8em;
+}
+
+.coming_soon {
+	color: #f7f7f7;
+}
+
+.infographic {
+	padding: 5px;
+	background: #429ccb;
+	box-shadow: 0 2px 5px #111;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	width: 100px;
+	font-weight: 500;
+	color: #fff;
+	display: block;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-o-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+.infographic:hover {
+	color: #fff;
+	-webkit-transform: rotate(-2deg);
+  	-moz-transform: rotate(-2deg);
+  	-ms-transform: rotate(-2deg);
+  	-o-transform: rotate(-2deg);
+  	transform: rotate(-2deg);
+}
+
+/** BODY CONTENT
+--------------------------------------------------------------------------------------**/
+
+.padding {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.padding_top {
+	padding-top: 50px;
+	overflow: auto;
+}
+
+.hero_padding {
+	padding-bottom: 75px;
+	padding-top: 75px;
+}
+
+.text_padding {
+	padding-bottom: 50px;
+}
+
+@media only screen and (min-width : 992px) {
+	.padding_top {
+		padding-top: 125px;
+		overflow-y: auto;
+	}
+	.padding{
+		padding-top: 125px;
+		padding-bottom: 125px;
+	}
+
+	.overflow {
+		height: 400px;
+		overflow: hidden;
+	}
+
+	.hero_padding {
+	padding-bottom: 200px;
+	padding-top: 200px;
+}
+}
+
+.small_images {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.small_body_padding {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.small_text_padding {
+	padding-top: 10px;
+}
+
+.box_shadow_panel {
+	margin: 30px auto;
+	padding: 10px 15px 30px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px 3px rgba(83, 83, 83, 0.2);
+	text-align: center;
+}
+
+.box_shadow_panel a {
+	color: #222;
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+
+.bullet_points {
+	padding: 10px 15px 30px;
+}
+
+.bullet_points li {
+	padding-top: 1em;
+	font-size: 1.3em;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.bullet_points {
+	text-align: left;
+	}
+
+	.bullet_points li {
+		list-style-position: outside;
+	}
+
+}
+
+
+
+/** HERO SECTION
+-----------------**/
+
+.dark_background {
+	background-color: rgba(33, 33, 33, 0.5);
+	border-radius: 5px;
+	color: #fff;
+	padding: 15px 30px;
+	margin-top: 50px;
+}
+
+#partners_hero h2, #press_hero h2 {
+	color: #fff;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	.dark_background {
+		padding: 5px 10px;
+	}
+
+	.dark_background h4{
+		padding-top: 15px;
+	}
+
+	.dark_background a {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+/** index.html hero section **/
+
+#index_hero {
+	background-image: url(../images/fantoo-landing.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.play_button {
+	background-color: rgba(33, 33, 33, 0.5);
+	padding-top: 18px;
+	font-size: 1.6em;
+	width: 60px;
+	height: 60px;
+	margin: 5px auto;
+	color: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+	-webkit-transition:  all ease-in-out .15s;
+	transition: all ease-in-out .15s;
+}
+
+.play_button:hover, .play_button:focus {
+	background-color: #5abcd9;
+	-webkit-transform: scale(1.1);
+  	-moz-transform: scale(1.1);
+  	-ms-transform: scale(1.1);
+  	-o-transform: scale(1.1);
+  	transform: scale(1.1);
+}
+
+.down_arrow {
+	margin-top: 25px;
+	color: #fff;
+	font-size: 2em;
+}
+
+/** partners_resellers.html hero section **/
+
+#partners_hero {
+	background-image: url(../images/partners.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+/** press.html section **/
+
+#press {
+	background-image: url(../images/press.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+#press .dark_background {
+	margin: 50px auto;
+	-webkit-transition:  all ease-in-out .15s;
+	transition: all ease-in-out .15s;
+}
+
+#press .dark_background:hover {
+	background-color: rgba(22, 22, 22, 0.5);
+	-webkit-transform: scale(1.1);
+  	-moz-transform: scale(1.1);
+  	-ms-transform: scale(1.1);
+  	-o-transform: scale(1.1);
+  	transform: scale(1.1);
+}
+
+
+/** pricing.html section **/
+
+#pricing {
+	background: -webkit-linear-gradient(rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 1) 80%), -webkit-linear-gradient(110deg, #5abcd9 30%, #7f96dc 50%, #5abcd9); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 1) 80%), -o-linear-gradient(110deg, #5abcd9 30%, #7f96dc 50%, #5abcd9); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 1) 80%), -moz-linear-gradient(110deg, #5abcd9 30%, #7f96dc 50%, #5abcd9); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 1) 80%), linear-gradient(110deg, #5abcd9 30%, #7f96dc 50%, #5abcd9); /* Standard syntax */
+}
+
+
+#pricing h1 {
+	font-size: 3.7em;
+	color: #7f96dc;
+	font-weight: 500;
+}
+
+#pricing a {
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.price_table {
+	background-color: #fcfcfc;
+	-webkit-transition: all ease-in-out 0.1s;
+  	-moz-transition: all ease-in-out 0.1s;
+  	-o-transition: all ease-in-out 0.1s;
+  	-ms-transition: all ease-in-out 0.1s;
+  	transition: all ease-in-out 0.1s;
+}
+
+.price_table:hover {
+	 background: #fff;
+	-webkit-transform: translateY(-20px);
+  	-moz-transform: translateY(-20px);
+  	-ms-transform: translateY(-20px);
+  	-o-transform: translateY(-20px);
+  	transform: translateY(-20px);
+}
+
+@media only screen and (min-width : 768px) {
+
+	#pricing h2 {
+		padding-bottom: 50px;
+	}
+
+	.price_table {
+		min-height: 450px;
+	}
+}
+
+/** about.html section **/
+
+#about_hero {
+	background-image: url(../images/about-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+/** support.html hero section **/
+
+#support_hero {
+	background-image: url(../images/datacenter.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+/** contact.html hero section **/
+
+#contact_hero {
+	background-image: url(../images/press.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+/** privacy.html hero section **/
+
+#privacy_hero {
+	background-color: #606060;
+	color: #fff;
+}
+
+/** terms_of_service.html hero section **/
+
+#tos_hero {
+	background-color: #606060;
+	color: #fff;
+}
+
+/** GRADIENT SECTION
+-----------------**/
+
+.gradient_background {
+	background: -webkit-linear-gradient(135deg, #5abcd9, #7f96dc); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(135deg, #5abcd9, #7f96dc); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(135deg, #5abcd9, #7f96dc); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(135deg, #5abcd9, #7f96dc); /* Standard syntax */
+	color: #fff;
+}
+
+.gradient_background h3 {
+	color: #fff;
+}
+
+.gradient_background hr {
+	background-color: #fff;
+	border-top: 1px #fff;
+}
+
+/** dell gradient section **/
+
+.round_portrait {
+	border-radius: 50%;
+}
+
+.speech_bubble {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	vertical-align: central;
+}
+
+.speech_bubble h2 {
+	padding: 5px;
+	margin: 0;
+}
+
+.speech_bubble_arrow_left {
+	border-style: solid;
+	position: absolute;
+	border-color: rgba(255, 255, 255, 0.3) transparent transparent;
+	border-width: 8px 0px 8px 8px;
+	left: -8px;
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.dell_border {
+		border-right: 1px solid #fff;
+	}
+}
+
+
+/** LIGHT GREY SECTION
+-----------------**/
+
+.light_grey {
+	background-color: #f3f3f3;
+}
+
+/** dell challenges section **/
+
+
+/** DARK GREY SECTION
+-----------------**/
+
+.dark_grey {
+	background-color: #dedede;
+}
+
+@media only screen and (min-width : 992px) {
+	#dashboard_view img{
+		padding-top: 40px;
+	}
+}
+
+/** BACKGROUND IMAGE SECTION
+-----------------**/
+
+/** one touch **/
+
+.one_touch {
+	background: -webkit-linear-gradient(rgba(1, 1, 1, 0.0) 0%, rgba(1, 1, 1, .5) 80%), url(../images/reply.jpg) ;
+	background: -o-linear-gradient(rgba(1, 1, 1, 0.0) 0%, rgba(1, 1, 1, .5) 80%), url(../images/reply.jpg) ;
+	background: -moz-linear-gradient(rgba(1, 1, 1, 0.0) 0%, rgba(1, 1, 1, .5) 80%), url(../images/reply.jpg) ;
+	background: linear-gradient(rgba(1, 1, 1, 0.0) 0%, rgba(1, 1, 1, .5) 80%), url(../images/reply.jpg) ;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.one_touch {
+	background-image: url(../images/reply.jpg);	
+	}
+}
+
+/** ABOUT BODY
+-----------------**/
+
+#people {
+	height: 150px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	padding: 0;
+
+
+}
+
+#people .square_photo {
+	list-style: none;
+	display: block;
+	white-space: nowrap;
+	margin: 0;
+	padding: 0;
+}
+
+#people .square_photo div {
+	width: 150px;
+	height: 150px;
+	padding: 0;
+	display: inline-block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#people img {
+	width: 300px;
+}
+
+#people .square_photo div#arun {
+	background-image: url(../images/about/arun.jpg);
+}
+
+#people .square_photo div#balazs {
+	background-image: url(../images/about/balazs.jpg);
+}
+
+#people .square_photo div#daniel {
+	background-image: url(../images/about/daniel.jpg);
+}
+
+#people .square_photo div#david {
+	background-image: url(../images/about/david.jpg);
+}
+
+#people .square_photo div#ed {
+	background-image: url(../images/about/ed.jpg);
+}
+
+#people .square_photo div#jordan {
+	background-image: url(../images/about/jordan.jpg);
+}
+
+#people .square_photo div#ken {
+	background-image: url(../images/about/ken.jpg);
+}
+
+#people .square_photo div#marcelo {
+	background-image: url(../images/about/marcelo.jpg);
+}
+
+#people .square_photo div#orlando {
+	background-image: url(../images/about/orlando.jpg);
+}
+
+#people .square_photo div#santosh {
+	background-image: url(../images/about/santosh.jpg);
+}
+
+#people .square_photo div#seena {
+	background-image: url(../images/about/seena.jpg);
+}
+
+#people .square_photo div#terrie {
+	background-image: url(../images/about/terrie.jpg);
+}
+
+#people .square_photo div#tom {
+	background-image: url(../images/about/tom.jpg);
+}
+
+/** CONTACT FORMS
+-----------------**/
+
+label {
+	font-weight: 400;
+	text-align: left;
+}
+
+input, textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	font-size: 1.5em;
+	color: #444;
+}
