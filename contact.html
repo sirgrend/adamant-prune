@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Fantoo - Future Of Email</title>
+    <title> Contact Us | Fantoo - Future Of Email</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -47,18 +47,39 @@
         </div>
       </div>
     </nav>
-    <div id="contact_hero" class="container-fluid">
+    <section id="contact_hero" class="container-fluid">
       <div class="container padding">
-        <h2 class="col-xs-12">Get In Touch</h2>
+        <h1 class="col-xs-12">Get In Touch</h1>
+        <form action="contact_submit" method="get" accept-charset="utf-8">
+          <label class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0 col-lg-4">
+            <p>Full Name</p>
+            <input class="" type="text" name="full_name" value="" tabindex="1" placeholder="Shiela Smith" required>
+          </label>
+          <label class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0 col-lg-4">
+            <p>Email Address</p>
+            <input class="" type="email" name="email_address" value="" tabindex="2" placeholder="shiela@fantoo.com" required>
+          </label>
+          <label class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0 col-lg-4">
+            <p>Company</p>
+            <input class="" type="text" name="company" value="" tabindex="3" placeholder="Fantoo Limited">
+          </label>
+          <label class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-0 col-lg-12">
+            <p>Write Your Message</p>
+            <textarea class="" type="text" name="message" value="" tabindex="4" placeholder="Tell us whats on your mind..." required></textarea>
+          </label>
+          <div class=" col-xs-12 col-sm-8 col-sm-offset-2">
+            <button class="btn btn-default" name="submit" type="submit" id="contact_submit">Submit</button>            
+          </div>
+          </form>
         <h2 class="col-xs-12"><strong>Fantoo, Dell House,<strong> Cain Road, Bracknell, RG12 1LF</h2>
       </div>
-    </div>
+    </section>
     <footer class="container_fluid">
       <div class="container">
         <div class="col-xs-12 col-md-6 left_align_md">
           <h6>Made with &#9825; by Fantoo</h6>
           <p >Dell is a registered trademark of Dell Inc. Exchange and Office365 are registered trademarks of Microsoft Corporation. US Utility Patents Pending for features described.
-          <br>
+          <br>å
           &#169;  2015 Fantoo</p>
         </div>
         <ul class="col-xs-6 col-md-2 left_align_md">

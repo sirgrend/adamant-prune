@@ -36,6 +36,7 @@ h4 {
 
 p {
 	font-size: 1.2em;
+	padding-top: 10px;
 }
 
 ul li {
@@ -169,11 +170,14 @@ ul li {
 
 	.social_buttons a {
 		border: none;
+		font-size: 2em;
+
 	}
 
 	.social_buttons li {
 		-webkit-transition:  all ease-in-out .1s;
 		transition: all ease-in-out .1s;
+		color: #1c1c1c;
 	}
 
 	.social_buttons li:hover {
@@ -265,6 +269,11 @@ footer p {
 	overflow: auto;
 }
 
+.hero_padding {
+	padding-bottom: 75px;
+	padding-top: 75px;
+}
+
 .text_padding {
 	padding-bottom: 50px;
 }
@@ -283,6 +292,11 @@ footer p {
 		height: 400px;
 		overflow: hidden;
 	}
+
+	.hero_padding {
+	padding-bottom: 200px;
+	padding-top: 200px;
+}
 }
 
 .small_images {
@@ -722,4 +736,19 @@ footer p {
 	background-image: url(../images/about/tom.jpg);
 }
 
+/** CONTACT FORMS
+-----------------**/
 
+label {
+	font-weight: 400;
+	text-align: left;
+}
+
+input, textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	font-size: 1.5em;
+	color: #444;
+}
